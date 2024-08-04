@@ -1,7 +1,7 @@
 function Hero() {
   return (
     <div className="mt-20 flex flex-col justify-center gap-5">
-      <h1 className="font-semibold text-center text-3xl md:text-5xl text-[#5e5e5e]">
+      <h1 className="font-semibold text-center p-2 md:p-0 text-3xl md:text-5xl text-[#5e5e5e]">
         Travel memories you'll never forget!
       </h1>
 
