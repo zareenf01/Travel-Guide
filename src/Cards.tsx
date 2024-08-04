@@ -16,7 +16,7 @@ function Cards() {
         Explore Places
       </h1>
       <Carousel>
-        <CarouselContent className="px-20 mt-10 flex ">
+        <CarouselContent className="px-10 md:px-20 mt-10 flex ">
           {data.map((card) => (
             <CarouselItem className=" md:basis-1/2 lg:basis-1/3 rounded-lg shadow-xl max-w-80 p-5 pl-4 mx-4 cursor-pointer">
               <Link to={`/details/${card.id}`}>
